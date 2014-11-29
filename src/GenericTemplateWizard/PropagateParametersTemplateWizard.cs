@@ -38,7 +38,6 @@ namespace GenericTemplateWizard
 
         public virtual void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
-            MessageBox.Show("Lanciato");
             if (logic.GlobalVariablesIsEnabled) { GlobalDictionary.CopyGlobalDictionaryToReplacementsDictionary(ref replacementsDictionary); }
         }
 
