@@ -29,7 +29,7 @@ namespace GenericTemplateWizard.Sample
     {
     }
 
-    public class MyPassThruSampleWizard : GenericTemplateWizard.PropagateParametersTemplateWizard<SampleWizardLogic>
+    public class MyPassThruSampleWizard : GenericTemplateWizard.PropagateParametersTemplateWizard
     {
     }
 

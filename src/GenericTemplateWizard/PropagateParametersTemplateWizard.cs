@@ -27,18 +27,8 @@ using System.Windows.Forms;
 
 namespace GenericTemplateWizard
 {
-    public class PropagateParametersTemplateWizard<T> : IWizard where T : BaseWizardLogic, new()
+    public class PropagateParametersTemplateWizard : IWizard 
     {
-        private T logic;
-        public PropagateParametersTemplateWizard()
-        {
-            this.logic = new T();
-        }
-        public PropagateParametersTemplateWizard(T logic)
-        {
-            this.logic = logic;
-        }
-
         public void BeforeOpeningFile(EnvDTE.ProjectItem projectItem)
         {
         }
@@ -57,7 +47,7 @@ namespace GenericTemplateWizard
 
         public virtual void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
-            if (logic.GlobalVariablesIsEnabled) { GlobalDictionary.CopyGlobalDictionaryToReplacementsDictionary(ref replacementsDictionary); }
+             GlobalDictionary.CopyGlobalDictionaryToReplacementsDictionary(ref replacementsDictionary); 
         }
 
         public bool ShouldAddProjectItem(string filePath)
