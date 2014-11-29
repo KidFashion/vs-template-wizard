@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericTemplateWizard.Sample
 {
-    public class MySampleWizard : GenericTemplateWizard.GenericWizard<SampleWizardLogic>
+    public class MySampleWizard : GenericTemplateWizard.GenericWizardWithTitle<SampleWizardLogic>
     {
     }
 

@@ -30,5 +30,13 @@ namespace GenericTemplateWizard
 
         [Obsolete("Visual Studio 2013 Update2 adds a better way to manage multi-project template parameters: http://stackoverflow.com/questions/19662836/using-customparamter-with-visual-studio-multi-project-template")]
         public void UseGlobalVariables() { useGlobalVariables = true; }
+
+        protected Size size = new Size(0,0);
+
+        [Browsable(false)]
+        public Size FormSize
+        {
+            get { return size;}
+        }
     }
 }

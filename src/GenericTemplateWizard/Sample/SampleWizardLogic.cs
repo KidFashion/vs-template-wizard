@@ -14,6 +14,7 @@ namespace GenericTemplateWizard.Sample
             : base(GenericTemplateWizard.Sample.LogoResource.Logo, "Sample Wizard")
         {
             UseGlobalVariables();
+            size = new System.Drawing.Size(800, 800);
         }
 
         private String solutionName;

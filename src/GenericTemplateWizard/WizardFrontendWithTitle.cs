@@ -10,19 +10,20 @@ using System.Windows.Forms;
 
 namespace GenericTemplateWizard
 {
-    public partial class WizardFrontend : Form
+    public partial class WizardFrontendWithTitle : Form
     {
-        public WizardFrontend()
+        public WizardFrontendWithTitle()
         {
             InitializeComponent();
         }
 
-        public WizardFrontend(BaseWizardLogic logic)
+        public WizardFrontendWithTitle(BaseWizardLogic logic)
             : this()
         {
             this.pictureBox1.Image = logic.Logo;
             this.pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             this.Text = logic.Title;
+            this.label1.Text = logic.Title;
             this.propertyGrid1.SelectedObject = logic;
 
             //if size has been declared in WizardLogic use it, otherwise, use default 525; 540
@@ -30,7 +31,13 @@ namespace GenericTemplateWizard
                 this.Size = logic.FormSize;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             // TODO I need to do something do update selectedobject in propertygrid?
             this.Dispose();
