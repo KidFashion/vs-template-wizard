@@ -1,4 +1,4 @@
-﻿namespace GenericTemplateWizard
+﻿namespace TCPSoftware.VisualStudio.GenericTemplateWizard
 {
     partial class WizardFrontendWithTitle
     {

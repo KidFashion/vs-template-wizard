@@ -27,7 +27,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GenericTemplateWizard
+namespace TCPSoftware.VisualStudio.GenericTemplateWizard
 {
     public partial class WizardFrontend : Form
     {

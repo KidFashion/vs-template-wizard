@@ -23,13 +23,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericTemplateWizard.Sample
+
+namespace TCPSoftware.VisualStudio.GenericTemplateWizard.Sample
 {
-    public class MySampleWizard : GenericTemplateWizard.GenericWizardWithTitle<SampleWizardLogic>
+    public class MySampleWizard : TCPSoftware.VisualStudio.GenericTemplateWizard.GenericWizardWithTitle<SampleWizardLogic>
     {
     }
 
-    public class MyPassThruSampleWizard : GenericTemplateWizard.PropagateParametersTemplateWizard
+    public class MyPassThruSampleWizard : TCPSoftware.VisualStudio.GenericTemplateWizard.PropagateParametersTemplateWizard
     {
     }
 

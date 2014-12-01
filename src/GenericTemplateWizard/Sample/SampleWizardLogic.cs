@@ -24,7 +24,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericTemplateWizard.Sample
+using TCPSoftware.VisualStudio.GenericTemplateWizard;
+
+namespace TCPSoftware.VisualStudio.GenericTemplateWizard.Sample
 {
     public class SampleWizardLogic : BaseWizardLogic
     {

@@ -23,7 +23,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericTemplateWizard
+namespace TCPSoftware.VisualStudio.GenericTemplateWizard
 {
     public static class GlobalDictionary
     {

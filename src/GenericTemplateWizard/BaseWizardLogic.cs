@@ -24,14 +24,19 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 
-namespace GenericTemplateWizard
+namespace TCPSoftware.VisualStudio.GenericTemplateWizard
 {
     public abstract class BaseWizardLogic
     {
-        public BaseWizardLogic(Bitmap logo, String title)
+
+        public BaseWizardLogic(Bitmap logo, String title, Size formSize)
         {
             this.logo = logo;
             this.title = title;
+            this.size = formSize;
+        }
+        public BaseWizardLogic(Bitmap logo, String title) : this(logo, title, new Size(0,0))
+        {
         }
 
         private Bitmap logo;

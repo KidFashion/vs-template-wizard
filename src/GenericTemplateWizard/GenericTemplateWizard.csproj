@@ -7,8 +7,8 @@
     <ProjectGuid>{240746BD-19BF-4033-958B-5023C91B474A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GenericTemplateWizard</RootNamespace>
-    <AssemblyName>GenericTemplateWizard</AssemblyName>
+    <RootNamespace>TCPSoftware.VisualStudio.GenericTemplateWizard</RootNamespace>
+    <AssemblyName>TCPSoftware.VisualStudio.GenericTemplateWizard</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -25,7 +25,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GenericTemplateWizard
+namespace TCPSoftware.VisualStudio.GenericTemplateWizard
 {
     public abstract class GenericWizardWithTitle<T> : IWizard where T : BaseWizardLogic, new()
     {

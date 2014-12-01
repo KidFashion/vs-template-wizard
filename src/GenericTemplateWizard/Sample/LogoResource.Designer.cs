@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GenericTemplateWizard.Sample {
+namespace TCPSoftware.VisualStudio.GenericTemplateWizard.Sample {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace GenericTemplateWizard.Sample {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GenericTemplateWizard.Sample.LogoResource", typeof(LogoResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TCPSoftware.VisualStudio.GenericTemplateWizard.Sample.LogoResource", typeof(LogoResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
